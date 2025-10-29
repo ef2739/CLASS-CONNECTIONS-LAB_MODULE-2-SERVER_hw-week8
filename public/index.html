@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    </link>
+    <title>Chat - Single Page</title>
+</head>
+
+<body>
+    <div class="buttons">
+        <!-- create 6 buttons for each subject-->
+        <div class="interface-lab">
+            <button id="intlab-bttn">interface lab</button>
+        </div>
+
+        <div class="exploratory-making">
+            <button id="expmak-bttn">exploratory making</button>
+        </div>
+
+        <div class="CCC">
+            <button id="ccc-bttn">concepts, culture & communication</button>
+        </div>
+
+        <div class="conversations-ny">
+            <button id="convny-bttn">conversations NY</button>
+        </div>
+
+        <div class="creative-coding">
+            <button id="crcod-bttn">creative coding</button>
+        </div>
+
+        <div class="connections-lab">
+            <button id="conlab-bttn">connections lab</button>
+        </div>
+
+        <div class="crit-ex">
+            <button id="critex-bttn">critical experience</button>
+        </div>
+
+    </div>
+
+
+    <div class="voting-feed">
+        <div class="chat-header">Live results</div>
+        <div class="chat-box" id="chat-box-msgs"></div>
+
+    </div>
+
+    <!-- load the socket.io library -->
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
